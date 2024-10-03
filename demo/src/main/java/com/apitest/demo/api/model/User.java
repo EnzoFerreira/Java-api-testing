@@ -2,12 +2,12 @@ package com.apitest.demo.api.model;
 
 public class User {
     private int id;
-    private int name;
+    private String name;
     private int age;
     private String email;
 
 
-    public User(int id, int name, int age, String email) {
+    public User(int id, String name, int age, String email) {
         this.id = id;
         this.name = name;
         this.age = age;
@@ -24,12 +24,12 @@ public class User {
     }
 
 
-    public int getName() {
+    public String getName() {
         return name;
     }
 
 
-    public void setName(int name) {
+    public void setName(String name) {
         this.name = name;
     }
 
